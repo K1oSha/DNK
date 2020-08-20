@@ -1,0 +1,19 @@
+{
+    "require": {
+        "yiisoft/yii2": "^2.0",
+        "codeception/codeception": "*",
+        "codeception/module-phpbrowser": "^1.0.0",
+        "codeception/module-asserts": "^1.0.0",
+        "yiisoft/yii2-bootstrap": "*",
+        "yiisoft/yii2-debug": "^2.1",
+        "fzaninotto/faker": "*",
+        "codeception/module-yii2": "^1.1"
+    },
+    "config": {
+        "fxp-asset": {
+            "installer-paths": {
+                "bower-asset-library": "vendor/bower"
+            }
+        }
+    }
+}

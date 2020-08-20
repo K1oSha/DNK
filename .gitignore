@@ -1,0 +1,6 @@
+.idea
+vendor
+runtime
+web/db.php
+composer.lock
+uploads
