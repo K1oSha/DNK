@@ -8,6 +8,20 @@ use yii\widgets\ActiveForm;
 /* @var $form yii\widgets\ActiveForm */
 ?>
 
+<style>
+
+.has-error
+{
+    color: yellow;
+    background-color: red;
+}
+.help-block
+{
+    color: green;
+}
+
+</style>
+
 <div class="anketa-form">
 
     <?php $form = ActiveForm::begin(); ?>

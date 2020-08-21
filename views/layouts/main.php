@@ -6,6 +6,7 @@ use yii\bootstrap4\NavBar;
 
         <head>
             <link rel="stylesheet" href="css/main.css">
+            <link rel="stylesheet" href="css/all.css">
             <style>
                 .my-navbar {
                     background-color: #FFC90D;

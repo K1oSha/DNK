@@ -69,3 +69,29 @@ a{
     color: #333;
     background: #FFC90D;
 }
+
+@font-face {
+    font-family: 'Gothic';
+    src: url('/css/webfonts/font.ttf') format('truetype');
+    font-weight: normal;
+    font-weight: normal;
+}
+body {
+    font-family: 'Gothic' !important
+}
+.glyphicon {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+}
+
+.glyphicon-pencil::before {
+    content: "\f14b";
+}
+
+.glyphicon-trash::before {
+    content: "\f2ed";
+}
+
+.glyphicon-eye-open::before {
+    content: "\f06e";
+}
