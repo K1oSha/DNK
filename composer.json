@@ -7,11 +7,13 @@
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-debug": "^2.1",
         "fzaninotto/faker": "*",
-        "codeception/module-yii2": "^1.1"
+        "codeception/module-yii2": "^1.1",
+        "yiisoft/yii2-bootstrap4": "^2.0"
     },
     "config": {
         "fxp-asset": {
             "installer-paths": {
+                "npm-asset-library": "vendor/npm",
                 "bower-asset-library": "vendor/bower"
             }
         }
