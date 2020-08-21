@@ -21,6 +21,11 @@
        'modules'=>[
            'debug'=>'yii\debug\Module',
            'gii' => 'yii\gii\Module',       ],
+        'aliases' => [
+            '@bower' => '@vendor/bower-asset',
+            '@npm'   => '@vendor/npm-asset',
+          ],
         ];
+        
 
    return $config;
