@@ -35,6 +35,6 @@ class m200900_000000_create_anketa_table extends Migration
      */
     public function safeDown()
     {
-        $this->dropColumn('{{%anketa}}',);
+        $this->dropColumn('{{%anketa}}');
     }
 }

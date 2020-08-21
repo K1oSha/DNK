@@ -1,66 +1,127 @@
 <?php
 
-//Контроллер связвает модель с представлением
 namespace app\controllers;
+
+use Yii;
 use app\models\Anketa;
 use app\models\AnketaSearch;
-use yii\filters\AccessControl;
 use yii\web\Controller;
-use yii;
+use yii\web\NotFoundHttpException;
+use yii\filters\VerbFilter;
+
+/**
+ * AnketaController implements the CRUD actions for Anketa model.
+ */
 class AnketaController extends Controller
 {
-
-    public function actionList()
+    /**
+     * {@inheritdoc}
+     */
+    public function behaviors()
     {
-        // $anketa = new Anketa();
+        return [
+            'verbs' => [
+                'class' => VerbFilter::className(),
+                'actions' => [
+                    'delete' => ['POST'],
+                ],
+            ],
+        ];
+    }
+
+    /**
+     * Lists all Anketa models.
+     * @return mixed
+     */
+    public function actionIndex()
+    {
         $searchModel = new AnketaSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
-        return $this->render('list', [
+
+        return $this->render('index', [
             'searchModel' => $searchModel,
             'dataProvider' => $dataProvider,
-            ]);
+        ]);
     }
+
+    /**
+     * Displays a single Anketa model.
+     * @param integer $id
+     * @return mixed
+     * @throws NotFoundHttpException if the model cannot be found
+     */
+    public function actionView($id)
+    {
+        return $this->render('view', [
+            'model' => $this->findModel($id),
+        ]);
+    }
+
+    /**
+     * Creates a new Anketa model.
+     * If creation is successful, the browser will be redirected to the 'view' page.
+     * @return mixed
+     */
     public function actionCreate()
     {
         $model = new Anketa();
-        if($model->load(Yii::$app->request->post()) && $model->save()) {
-            return   $this->redirect(['']);
+
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['view', 'id' => $model->id]);
         }
+
         return $this->render('create', [
             'model' => $model,
         ]);
+    }
 
-        }
-
+    /**
+     * Updates an existing Anketa model.
+     * If update is successful, the browser will be redirected to the 'view' page.
+     * @param integer $id
+     * @return mixed
+     * @throws NotFoundHttpException if the model cannot be found
+     */
     public function actionUpdate($id)
     {
-        $article = Articles::findOne($id);
-        if($article->load(Yii::$app->request->post()))
-        {
-            $simvol = mb_strlen($article->text);
-            $article->symbols_qty = $simvol;
-            if ($article->save())
-            {
-                Yii::$app->getSession()->setFlash('message', 'Post Updated Successfully');
-                return $this->redirect(['/articles/articles', 'id' => $article->id]);
-            }
-            else
-                {
-                return $this->render('update', ['article' => $article]);
-            }
+        $model = $this->findModel($id);
 
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['view', 'id' => $model->id]);
         }
-        else {
-            return $this->render('update', ['article' => $article]);
-        }
-       // return $this->render('update',['article'=>$article]);
+
+        return $this->render('update', [
+            'model' => $model,
+        ]);
     }
+
+    /**
+     * Deletes an existing Anketa model.
+     * If deletion is successful, the browser will be redirected to the 'index' page.
+     * @param integer $id
+     * @return mixed
+     * @throws NotFoundHttpException if the model cannot be found
+     */
     public function actionDelete($id)
     {
-        $article = Articles::findOne($id)->delete();
-        if($article){
-            Yii::$app->getSession()->setFlash('message','Post Deleted Successfully');
-            return $this->redirect(['/articles/articles']);
+        $this->findModel($id)->delete();
+
+        return $this->redirect(['index']);
+    }
+
+    /**
+     * Finds the Anketa model based on its primary key value.
+     * If the model is not found, a 404 HTTP exception will be thrown.
+     * @param integer $id
+     * @return Anketa the loaded model
+     * @throws NotFoundHttpException if the model cannot be found
+     */
+    protected function findModel($id)
+    {
+        if (($model = Anketa::findOne($id)) !== null) {
+            return $model;
         }
+
+        throw new NotFoundHttpException('The requested page does not exist.');
     }
 }

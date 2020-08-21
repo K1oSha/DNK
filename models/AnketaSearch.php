@@ -7,7 +7,7 @@ use yii\data\ActiveDataProvider;
 use app\models\Anketa;
 
 /**
- * CowSearch represents the model behind the search form of `app\models\Cow`.
+ * AnketaSearch represents the model behind the search form of `app\models\Anketa`.
  */
 class AnketaSearch extends Anketa
 {
@@ -17,8 +17,8 @@ class AnketaSearch extends Anketa
     public function rules()
     {
         return [
-            [['id','fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent','personal_data'],'fields']
-
+            [['id', 'age', 'class', 'personal_data'], 'integer'],
+            [['fio', 'ucheb', 'interes', 'dnk_dir', 'dnk_prog', 'phone', 'email', 'fio_parent', 'phone_parent'], 'safe'],
         ];
     }
 
@@ -56,21 +56,24 @@ class AnketaSearch extends Anketa
             return $dataProvider;
         }
 
-        // [['id','fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent','personal_data'],'fields']
+        // grid filtering conditions
         $query->andFilterWhere([
             'id' => $this->id,
-            'fio' => $this->fio,
             'age' => $this->age,
             'class' => $this->class,
-            'ucheb' => $this->ucheb,
-            'interes' => $this->interes,
-            'dnk_dir' => $this->dnk_dir,
-            'dnk_prog' => $this->dnk_prog,
-            'phone' => $this->phone,
-            'email' => $this->email,
-            'phone_parent' => $this->fio_parent,
             'personal_data' => $this->personal_data,
         ]);
+
+        $query->andFilterWhere(['like', 'fio', $this->fio])
+            ->andFilterWhere(['like', 'ucheb', $this->ucheb])
+            ->andFilterWhere(['like', 'interes', $this->interes])
+            ->andFilterWhere(['like', 'dnk_dir', $this->dnk_dir])
+            ->andFilterWhere(['like', 'dnk_prog', $this->dnk_prog])
+            ->andFilterWhere(['like', 'phone', $this->phone])
+            ->andFilterWhere(['like', 'email', $this->email])
+            ->andFilterWhere(['like', 'fio_parent', $this->fio_parent])
+            ->andFilterWhere(['like', 'phone_parent', $this->phone_parent]);
+
         return $dataProvider;
     }
 }

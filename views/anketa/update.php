@@ -5,11 +5,12 @@ use yii\helpers\Html;
 /* @var $this yii\web\View */
 /* @var $model app\models\Anketa */
 
-$this->title = 'Подать заявку';
+$this->title = 'Update Anketa: ' . $model->id;
 $this->params['breadcrumbs'][] = ['label' => 'Anketas', 'url' => ['index']];
-$this->params['breadcrumbs'][] = $this->title;
+$this->params['breadcrumbs'][] = ['label' => $model->id, 'url' => ['view', 'id' => $model->id]];
+$this->params['breadcrumbs'][] = 'Update';
 ?>
-<div class="anketa-create">
+<div class="anketa-update">
 
     <h1><?= Html::encode($this->title) ?></h1>
 

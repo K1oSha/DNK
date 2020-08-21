@@ -3,7 +3,7 @@
    $config =[
     'id'=>'finance',
     'basePath'=> realpath(__DIR__.'/../'),
-       'bootstrap'=>['debug'],
+       'bootstrap'=>['debug','gii'],
       'components'=>[
         'urlManager'=>[
           'enablePrettyUrl'=>true,
@@ -20,7 +20,7 @@
       ],
        'modules'=>[
            'debug'=>'yii\debug\Module',
-       ],
+           'gii' => 'yii\gii\Module',       ],
         ];
 
    return $config;

@@ -1,0 +1,71 @@
+.andrey{
+    background-color: #f2b884;
+   /*// font-family: "Lato";*/
+    font-weight: 300;
+    font-size:16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+}
+
+h1,h2,h3,h4,h5,h6{
+   /*// font-family: "RaleWay";*/
+    font-weight: 300 ;
+    color: #333;
+}
+
+p{
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered{
+    text-align: center;
+}
+a{
+    color: #f85c37;
+}
+
+ .list-counter-square {
+     list-style: none;
+     counter-reset: list;
+     margin: 0;
+     padding: 0;
+     overflow: hidden;
+ }
+
+.list-counter-square>li {
+    position: relative;
+    display: block;
+    height: 2rem;
+    line-height: 10rem;
+    margin-left: 2.25rem;
+    margin-bottom: .25rem;
+    padding-left: .5rem;
+    padding-right: .5rem;
+    color: #333;
+    background: #FFC90D;
+    white-space: nowrap;
+    font-size: xx-large;
+}
+
+.list-counter-square>li:last-child {
+    margin-bottom: 0;
+}
+
+.list-counter-square>li::before {
+    content: counter(list);
+    counter-increment: list;
+    position: absolute;
+    left: -2.25rem;
+    top: 0;
+    bottom: 0;
+    width: 2rem;
+    line-height: 2rem;
+    text-align: center;
+    color: #333;
+    background: #FFC90D;
+}

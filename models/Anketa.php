@@ -30,7 +30,52 @@ class Anketa extends ActiveRecord{
         return 
         [
 
-            [['id','fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent','personal_data'],'fields']
+            [['id','fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent','personal_data'],'fields'],
+            [['fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent','personal_data'],'required','message'=>'Эти поля должны быть заполнены'],
+            [['age','class','interes','dnk_dir'],'integer','message'=>'В этом поле могут быть только числа','class'=>'danger']
+
         ];
     }
+    public function attributeLabels()
+    {
+        return
+            [
+                'fio'=>'ФИО',
+                'age'=>'Возраст',
+                'class'=>'Класс',
+                'ucheb'=>'Полное наименование учебного заведения',
+                'interes'=>'Направление интересов',
+                'dnk_dir'=>'Образовательное направление',
+                'dnk_prog'=>'Образовательная программа ДНК',
+                'phone'=>'Контактный телефон личный',
+                'email'=>'E-mail',
+                'fio_parent'=>'ФИО родителя',
+                'phone_parent'=>'Контактный телефон родителя',
+                'personal_data'=>'Согласие на обработку персональных данных',
+            ];
+    }
+    public static function getInteressList()
+    {
+        return
+            ['Программирование','VR','Робототехника','Квадрокоптеры','Конструирование и промышленный дизайн','Космос',
+                'Биотехнологии','Человеко-машинные интерфейсы'];
+    }
+
+    public function getInteressName()
+    {
+        $list = $this->getInteressList();
+        return $list[$this->interess];
+    }
+    public static function getDNKList()
+    {
+        return
+            ['Малая','Академия','Урок технологии'];
+    }
+
+    public function getDNKName()
+    {
+        $list = $this->getDNKList();
+        return $list[$this->dnk_dir];
+    }
+
 }
