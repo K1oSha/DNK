@@ -9,7 +9,7 @@ use yii\widgets\Pjax;
 /* @var $searchModel app\models\AnketaSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'Anketas';
+$this->title = 'Заявки';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="anketa-index">
@@ -17,7 +17,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
 
     <p>
-        <?= Html::a('Create Anketa', ['create'], ['class' => 'btn btn-success']) ?>
+        <?= Html::a('Создать заявку', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <?php Pjax::begin(); ?>
@@ -26,6 +26,9 @@ $this->params['breadcrumbs'][] = $this->title;
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
+        'formatter' => ['class' => 'yii\i18n\Formatter','nullDisplay' =>  '(Не задано)'],
+        'summary' =>"Показаны записи {begin} - {end} из {totalCount} ",
+        'emptyText' => 'Записи не найдены',
         'columns' => [
             ['class' => 'yii\grid\SerialColumn'],
 

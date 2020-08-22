@@ -69,7 +69,7 @@
                 ● Университетские мастерские и лаборатории
             </H3>
             <h2>и ТЫ можешь стать частью этого!</h2>
-            <a href="#" class="btn btn-dark">Подать заявку</a>
+            <a href="/anketa/create" class="btn btn-dark">Подать заявку</a>
         </div>
     </div>
     <br>

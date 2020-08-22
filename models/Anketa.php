@@ -66,7 +66,7 @@ class Anketa extends ActiveRecord{
     public function getInteressName()
     {
         $list = $this->getInteressList();
-        return $list[$this->interess];
+        return $list[$this->interes];
     }
     public static function getDNKList()
     {
