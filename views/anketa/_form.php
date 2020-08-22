@@ -12,12 +12,12 @@ use yii\widgets\ActiveForm;
 
 .has-error
 {
-    color: yellow;
-    background-color: red;
+    color: #a94442;
+
 }
 .help-block
 {
-    color: green;
+    color: #a94442;
 }
 
 </style>

@@ -31,8 +31,10 @@ class Anketa extends ActiveRecord{
         [
 
             [['id','fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent','personal_data'],'fields'],
-            [['fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent','personal_data'],'required','message'=>'Эти поля должны быть заполнены'],
-            [['age','class','interes','dnk_dir'],'integer','message'=>'В этом поле могут быть только числа']
+            [['fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent'],'required','message'=>'Это поле должно быть заполнено'],
+            [['age','class','interes','dnk_dir'],'integer','message'=>'В этом поле могут быть только числа'],
+            [['email'],'email','message'=>'E-mail введен не корректно'],
+            [['personal_data'],'errorPersonaldata']
 
         ];
     }
@@ -76,6 +78,14 @@ class Anketa extends ActiveRecord{
     {
         $list = $this->getDNKList();
         return $list[$this->dnk_dir];
+    }
+    public function errorPersonaldata()
+    {
+        if($this->personal_data==0)
+        {
+            $this->addError('personal_data',"Это поле должно быть заполнено");
+        }
+
     }
 
 }
