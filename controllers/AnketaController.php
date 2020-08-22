@@ -66,10 +66,19 @@ class AnketaController extends Controller
     {
         $model = new Anketa();
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if ($model->load(Yii::$app->request->post()))
+        {
+            $interests = $model->interes;
+            $model->interes = '';
+            foreach ($interests as $interes)
+            {
+                $model->interes.= $interes;
+            }
+            if ($model->save()) 
+            {
+                return $this->redirect(['view', 'id' => $model->id]);
+            }
         }
-
         return $this->render('create', [
             'model' => $model,
         ]);

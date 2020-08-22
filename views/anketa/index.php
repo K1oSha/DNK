@@ -37,7 +37,16 @@ $this->params['breadcrumbs'][] = $this->title;
             'age',
             'class',
             'ucheb',
-            ['attribute'=>'interes','value'=>'InteressName','filter'=> \app\models\Anketa::getInteressList()],
+            ['attribute'=>'interes','value'=>function($model){
+                $output = '';
+                $interesconsts = \app\models\Anketa::getInteressList();
+                foreach (str_split($model->interes) as $interes)
+                {
+                    $output .= $interesconsts[$interes] . ',';
+                }
+                return $output;
+            }
+            ,'filter'=> \app\models\Anketa::getInteressList()],
             ['attribute'=>'dnk_dir','value'=>'DNKName','filter'=> \app\models\Anketa::getDNKList()],
             //'dnk_prog',
             //'phone',
@@ -47,7 +56,7 @@ $this->params['breadcrumbs'][] = $this->title;
             //'personal_data',
 
             ['class' => 'yii\grid\ActionColumn',
-                'template' => '{update} {delete}'],
+                'template' => '{view}'],
         ],
     ]); ?>
 

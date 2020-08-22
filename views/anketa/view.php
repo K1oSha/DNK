@@ -22,8 +22,16 @@ $this->params['breadcrumbs'][] = $this->title;
             'age',
             'class',
             'ucheb',
-            'interes',
-            'dnk_dir',
+            ['attribute'=>'interes','value'=>function($model){
+                $output = '';
+                $interesconsts = \app\models\Anketa::getInteressList();
+                foreach (str_split($model->interes) as $interes)
+                {
+                    $output .= $interesconsts[$interes] . ',';
+                }
+                return $output;
+            }],
+            ['attribute'=>'dnk_dir','value'=>function($model){return $model->getDNKName();}],
             'dnk_prog',
             'phone',
             'email:email',

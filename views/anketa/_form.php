@@ -40,7 +40,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'ucheb')->textInput(['maxlength' => true]) ?>
 
-    <?= $form->field($model, 'interes')->dropDownList(\app\models\Anketa::getInteressList()) ?>
+    <?= $form->field($model, 'interes')->checkboxlist(\app\models\Anketa::getInteressList(),['multiple' => true]) ?>
 
     <?= $form->field($model, 'dnk_dir')->dropDownList(\app\models\Anketa::getDNKList()) ?>
 

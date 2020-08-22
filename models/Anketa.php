@@ -31,8 +31,8 @@ class Anketa extends ActiveRecord{
         [
 
             [['id','fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent','personal_data'],'fields'],
-            [['fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent'],'required','message'=>'Это поле должно быть заполнено'],
-            [['age','class','interes','dnk_dir'],'integer','message'=>'В этом поле могут быть только числа'],
+            [['fio','age','class','ucheb','interes','dnk_dir','dnk_prog','phone','email','fio_parent','phone_parent','interes'],'required','message'=>'Это поле должно быть заполнено'],
+            [['age','class','dnk_dir'],'integer','message'=>'В этом поле могут быть только числа'],
             [['email'],'email','message'=>'E-mail введен не корректно'],
             [['personal_data'],'errorPersonaldata']
 
