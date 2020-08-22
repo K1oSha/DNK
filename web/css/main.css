@@ -94,3 +94,43 @@ body {
 .glyphicon-eye-open::before {
     content: "\f06e";
 }
+.nav-link
+{
+    color: black !important;
+}
+.VR
+{
+    background-color: rgb(0,174,199);
+}
+.cosmos
+{
+    background-color: rgb(255,164,0);
+}
+.rocket
+{
+    background-color: rgb(139,132,215);
+}
+.cosmoseng
+{
+    background-color: rgb(255,88,93);
+}
+.robot
+{
+    background-color: rgb(112,115,114);
+}
+.intellect
+{
+    background-color: rgb(223,25,149);
+}
+.design
+{
+    background-color: rgb(0,195,137);
+}
+.interface
+{
+    background-color: rgb(139,132,215);
+}
+.bio
+{
+    background-color: rgb(181,189,0);
+}

@@ -106,8 +106,8 @@
     <h3 style="text-align: center">Образовательное направление “Детский университет” (5 - 9 классы)</h3>
 <div class="card-group">
     <div class="card">
-        <img class="card-img-top" src="..." alt="VR">
-        <div class="card-body">
+        <!-- <img class="card-img-top" src="..." alt="VR"> -->
+        <div class="card-body VR">
             <h5 class="card-title">VR</h5>
             <p class="card-text">
                 Программа подразумевает комплексный подход к освоению VR технологии, где
@@ -123,8 +123,8 @@
         </div>
     </div>
     <div class="card">
-        <img class="card-img-top" src="..." alt="Космическое бюро">
-        <div class="card-body">
+        <!-- <img class="card-img-top" src="..." alt="Космическое бюро"> -->
+        <div class="card-body cosmos">
             <h5 class="card-title">Космическое бюро</h5>
             <p class="card-text">
                 Программа направлена на формирование навыков использования космических
@@ -140,8 +140,8 @@
         </div>
     </div>
     <div class="card">
-        <img class="card-img-top" src="..." alt="Создание моделей ракет">
-        <div class="card-body">
+        <!-- <img class="card-img-top" src="..." alt="Создание моделей ракет"> -->
+        <div class="card-body rocket">
             <h5 class="card-title">Создание моделей ракет</h5>
             <p class="card-text">
                 Программа направлена на освоение Hard- и Soft-компетенций обучающимися в
@@ -159,22 +159,10 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="card-group">
         <div class="card">
-            <img class="card-img-top" src="..." alt="Введение в космологию и основы космического инжиниринга">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Введение в космологию и основы космического инжиниринга"> -->
+            <div class="card-body cosmoseng">
                 <h5 class="card-title">Введение в космологию и основы космического инжиниринга</h5>
                 <p class="card-text">
                     Программа направлена на освоение компетенций программирования,
@@ -189,8 +177,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Космическое бюро">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Космическое бюро"> -->
+            <div class="card-body robot">
                 <h5 class="card-title">Робот Arduino-Raspberry-Mecanum</h5>
                 <p class="card-text">
                     Программа направлена на формирование навыков по использованию симулятора
@@ -207,8 +195,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Создание моделей ракет">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Создание моделей ракет"> -->
+            <div class="card-body intellect">
                 <h5 class="card-title">Интеллектуальные системы и технологии</h5>
                 <p class="card-text">
                     Программа формирует компетенции, которые позволят обучающимся
@@ -228,27 +216,10 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="card-group">
         <div class="card">
-            <img class="card-img-top" src="..." alt="Промышленный дизайн">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Промышленный дизайн"> -->
+            <div class="card-body design">
                 <h5 class="card-title">Промышленный дизайн</h5>
                 <p class="card-text">
                     Программа направлена на освоение основ 3D моделирования и инженерной
@@ -264,8 +235,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Основы человеко-машинных интерфейсов">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Основы человеко-машинных интерфейсов"> -->
+            <div class="card-body interface">
                 <h5 class="card-title">Основы человеко-машинных интерфейсов</h5>
                 <p class="card-text">
                     Программа направлена на освоение hard- и soft- компетенций обучающимися в
@@ -280,8 +251,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Биотехнологии">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Биотехнологии"> -->
+            <div class="card-body bio">
                 <h5 class="card-title">Биотехнологии</h5>
                 <p class="card-text">
                     Программа направлена на формирование инженерно-биологического мышления у

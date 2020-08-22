@@ -42,7 +42,7 @@ use yii\bootstrap4\NavBar;
                    ['label'=>'Logout','url'=>['/user/logout']],
                ];
            echo Nav::widget([
-                   'options'=>['class'=>'ml-auto'],
+                   'options'=>['class'=>'ml-auto black'],
                'items'=>$menu
            ]);
             NavBar::end();
