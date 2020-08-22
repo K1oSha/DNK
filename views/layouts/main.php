@@ -5,8 +5,8 @@ use yii\bootstrap4\NavBar;
 <? $this->beginPage();?><!-- Тригер для бутстрапа -->
 
         <head>
-            <link rel="stylesheet" href="css/main.css">
-            <link rel="stylesheet" href="css/all.css">
+            <link rel="stylesheet" href="/web/css/main.css">
+            <link rel="stylesheet" href="/web/css/all.css">
             <style>
                 .my-navbar {
                     background-color: #FFC90D;
