@@ -49,7 +49,7 @@ class Anketa extends ActiveRecord{
                 'interes'=>'Направление интересов',
                 'dnk_dir'=>'Образовательное направление',
                 'dnk_prog'=>'Образовательная программа ДНК',
-                'phone'=>'Контактный телефон личный',
+                'phone'=>'Контактный телефон (личный)',
                 'email'=>'E-mail',
                 'fio_parent'=>'ФИО родителя',
                 'phone_parent'=>'Контактный телефон родителя',
@@ -71,7 +71,7 @@ class Anketa extends ActiveRecord{
     public static function getDNKList()
     {
         return
-            ['Малая','Академия','Урок технологии'];
+            ['Малая Академия','Детский университет','Урок технологии'];
     }
 
     public function getDNKName()

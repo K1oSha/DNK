@@ -36,25 +36,7 @@
         <span class="sr-only">Next</span>
     </a>
 </div>
-<!--<h1 style="text-align: left; font-weight: 900;">Описание ДНК</h1>-->
-<!--    <h3>Дом научной коллаборации - это центр дополнительного образования для детей и-->
-<!--        взрослых, включающий образовательные программы по освоению современных-->
-<!--        прикладных и гибких компетенций. ДНК подразумевает новый подход к образованию,-->
-<!--        реализующийся через выполнение учащимися реальных кейсов по передовым-->
-<!--        направлениям развития технологий.-->
-<!--    </h3>-->
-<!--    <div class="row" >-->
-<!--        <div class="col-lg-4 pull-left">-->
-<!--            <ol class="list-counter-square" style="max-width: 300px; margin: 0 auto;">-->
-<!--        <li>Проектная деятельность</li>-->
-<!--        <li>Реальные кейсы</li>-->
-<!--        <li>Научная ориентация</li>-->
-<!--        <li>Hard и Soft Skills</li>-->
-<!--        <li>Пространства для работы и отдыха</li>-->
-<!--        <li>Университетские мастерские и лаборатории</li>-->
-<!--        </div>-->
-<!--    </div>-->
-<!--</div>-->
+
     <br>
     <br>
     <div class="card w-100">
@@ -74,32 +56,6 @@
     </div>
     <br>
     <br>
-<!--<div class="list-group">-->
-<!--    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start active">-->
-<!--        <div class="d-flex w-100 justify-content-between">-->
-<!--            <h5 class="mb-1">List group item heading</h5>-->
-<!--            <small>3 days ago</small>-->
-<!--        </div>-->
-<!--        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>-->
-<!--        <small>Donec id elit non mi porta.</small>-->
-<!--    </a>-->
-<!--    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">-->
-<!--        <div class="d-flex w-100 justify-content-between">-->
-<!--            <h5 class="mb-1">List group item heading</h5>-->
-<!--            <small class="text-muted">3 days ago</small>-->
-<!--        </div>-->
-<!--        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>-->
-<!--        <small class="text-muted">Donec id elit non mi porta.</small>-->
-<!--    </a>-->
-<!--    <a href="#" class="list-group-item list-group-item-action flex-column align-items-start">-->
-<!--        <div class="d-flex w-100 justify-content-between">-->
-<!--            <h5 class="mb-1">List group item heading</h5>-->
-<!--            <small class="text-muted">3 days ago</small>-->
-<!--        </div>-->
-<!--        <p class="mb-1">Donec id elit non mi porta gravida at eget metus. Maecenas sed diam eget risus varius blandit.</p>-->
-<!--        <small class="text-muted">Donec id elit non mi porta.</small>-->
-<!--    </a>-->
-<!--</div>-->
 <div>
     <h1 style="text-align: center">Описание образовательных программ</h1>
     <br>
@@ -170,7 +126,6 @@
     <br>
     <br>
     <br>
-    <br>
     <div class="card-group">
         <div class="card">
             <img class="card-img-top" src="..." alt="Введение в космологию и основы космического инжиниринга">
@@ -225,9 +180,6 @@
             </div>
         </div>
     </div>
-    <br>
-    <br>
-    <br>
     <br>
     <br>
     <br>

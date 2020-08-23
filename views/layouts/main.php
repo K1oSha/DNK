@@ -34,8 +34,8 @@ use yii\bootstrap4\NavBar;
 
            if (Yii::$app->user->isGuest)
            $menu =[
-             ['label'=>'Join','url'=>['/user/join']],
-               ['label'=>'Log in','url'=>['/user/login']],
+             ['label'=>'Регистрация','url'=>['/user/join']],
+               ['label'=>'Войти','url'=>['/user/login']],
            ];
            else
                $menu =[
