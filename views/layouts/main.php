@@ -14,7 +14,8 @@ use yii\bootstrap4\NavBar;
 
                 }
             </style>
-            <title>Finance</title>
+            <link rel="shortcut icon" href="/images/DNK.jpg.">
+            <title>Дом научной коллаборации</title>
             <? $this->head();?><!-- Тригер для бутстрапа -->
         </head>
 

@@ -15,19 +15,28 @@ class UserLoginForm extends Model
     public function rules()
     {
         return [
-          [['email','password'],'required'],
+          [['email','password'],'required','message'=>'Данное поле должно быть заполнено'],
           ['email','email'],
             ['email','errorIfEmailNotFound'],
             ['password','errorIfPasswordWrong'],
             ['remember','boolean'],
         ];
     }
+    public function attributeLabels()
+    {
+        return
+            [
+                'name'=>'Имя',
+                'email'=>'E-mail',
+                'remember'=>'Запомнить меня',
+            ];
+    }
 
     public function errorIfEmailNotFound()
     {
         $this->userRecord = UserRecord::findUserByEmail($this->email);
         if ($this->userRecord->email == null)
-            $this->addError('email',"This e-mail doesn't exist");
+            $this->addError('email',"Данная почта не найдена");
     }
 
     public function errorIfPasswordWrong()
@@ -35,7 +44,7 @@ class UserLoginForm extends Model
     if($this->hasErrors())
         return;
     if (!$this->userRecord->validatePassword($this->password))
-        $this->addError('password','Wrong password');
+        $this->addError('password','Неверный пароль');
 }
 
     public function login()
