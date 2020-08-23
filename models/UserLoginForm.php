@@ -28,6 +28,7 @@ class UserLoginForm extends Model
             [
                 'name'=>'Имя',
                 'email'=>'E-mail',
+                'password'=>'Пароль',
                 'remember'=>'Запомнить меня',
             ];
     }

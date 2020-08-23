@@ -40,7 +40,8 @@ use yii\bootstrap4\NavBar;
            else
                $menu =[
                    ['label'=>Yii::$app->user->getIdentity()->name],
-                   ['label'=>'Logout','url'=>['/user/logout']],
+                   ['label'=>'Анкеты','url'=>['/anketa/index']],
+                   ['label'=>'Выйти','url'=>['/user/logout']],
                ];
            echo Nav::widget([
                    'options'=>['class'=>'ml-auto'],
