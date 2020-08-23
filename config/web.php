@@ -17,6 +17,9 @@
               'identityClass' =>'app\models\UserIdentity',
               'enableAutoLogin' => true,
           ],
+          'errorHandler'=>[
+              'errorAction'=>'site/error',
+          ],
       ],
        'modules'=>[
            'debug'=>'yii\debug\Module',

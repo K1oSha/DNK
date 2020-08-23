@@ -14,7 +14,8 @@ use yii\bootstrap4\NavBar;
 
                 }
             </style>
-            <title>Finance</title>
+            <link rel="shortcut icon" href="/images/DNK.jpg.">
+            <title>Дом научной коллаборации</title>
             <? $this->head();?><!-- Тригер для бутстрапа -->
         </head>
 
@@ -33,13 +34,14 @@ use yii\bootstrap4\NavBar;
 
            if (Yii::$app->user->isGuest)
            $menu =[
-             ['label'=>'Join','url'=>['/user/join']],
-               ['label'=>'Log in','url'=>['/user/login']],
+             ['label'=>'Регистрация','url'=>['/user/join']],
+               ['label'=>'Войти','url'=>['/user/login']],
            ];
            else
                $menu =[
                    ['label'=>Yii::$app->user->getIdentity()->name],
-                   ['label'=>'Logout','url'=>['/user/logout']],
+                   ['label'=>'Анкеты','url'=>['/anketa/index']],
+                   ['label'=>'Выйти','url'=>['/user/logout']],
                ];
            echo Nav::widget([
                    'options'=>['class'=>'ml-auto black'],
