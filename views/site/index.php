@@ -97,7 +97,7 @@
     </div>
     <div class="card">
         <!-- <img class="card-img-top" src="..." alt="Создание моделей ракет"> -->
-        <div class="card-body rocket">
+        <div class="card-body cosmos">
             <h5 class="card-title">Создание моделей ракет</h5>
             <p class="card-text">
                 Программа направлена на освоение Hard- и Soft-компетенций обучающимися в
@@ -118,7 +118,7 @@
     <div class="card-group">
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Введение в космологию и основы космического инжиниринга"> -->
-            <div class="card-body cosmoseng">
+            <div class="card-body rocket">
                 <h5 class="card-title">Введение в космологию и основы космического инжиниринга</h5>
                 <p class="card-text">
                     Программа направлена на освоение компетенций программирования,
@@ -134,7 +134,7 @@
         </div>
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Космическое бюро"> -->
-            <div class="card-body robot">
+            <div class="card-body cosmoseng">
                 <h5 class="card-title">Робот Arduino-Raspberry-Mecanum</h5>
                 <p class="card-text">
                     Программа направлена на формирование навыков по использованию симулятора
@@ -152,7 +152,7 @@
         </div>
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Создание моделей ракет"> -->
-            <div class="card-body intellect">
+            <div class="card-body robot">
                 <h5 class="card-title">Интеллектуальные системы и технологии</h5>
                 <p class="card-text">
                     Программа формирует компетенции, которые позволят обучающимся
@@ -175,7 +175,7 @@
     <div class="card-group">
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Промышленный дизайн"> -->
-            <div class="card-body design">
+            <div class="card-body intellect">
                 <h5 class="card-title">Промышленный дизайн</h5>
                 <p class="card-text">
                     Программа направлена на освоение основ 3D моделирования и инженерной
@@ -192,7 +192,7 @@
         </div>
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Основы человеко-машинных интерфейсов"> -->
-            <div class="card-body interface">
+            <div class="card-body design">
                 <h5 class="card-title">Основы человеко-машинных интерфейсов</h5>
                 <p class="card-text">
                     Программа направлена на освоение hard- и soft- компетенций обучающимися в
@@ -208,7 +208,7 @@
         </div>
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Биотехнологии"> -->
-            <div class="card-body bio">
+            <div class="card-body interface">
                 <h5 class="card-title">Биотехнологии</h5>
                 <p class="card-text">
                     Программа направлена на формирование инженерно-биологического мышления у
@@ -224,29 +224,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
     <br>
     <br>
@@ -254,8 +231,8 @@
     <br>
     <div class="card-group">
         <div class="card">
-            <img class="card-img-top" src="..." alt="Космическое бюро">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Космическое бюро"> -->
+            <div class="card-body cosmos">
                 <h5 class="card-title">Космическое бюро</h5>
                 <p class="card-text">
                     Программа направлена на формирование навыков использования космических
@@ -271,8 +248,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Устройства на PyBoard">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Устройства на PyBoard"> -->
+            <div class="card-body bio">
                 <h5 class="card-title">Устройства на PyBoard</h5>
                 <p class="card-text">
                     Программа направлена на развитие научно-технического и творческого потенциала
@@ -290,8 +267,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Робот Arduino-Raspberry-Mecanum">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Робот Arduino-Raspberry-Mecanum"> -->
+            <div class="card-body bio">
                 <h5 class="card-title">Робот Arduino-Raspberry-Mecanum</h5>
                 <p class="card-text">
                     Программа направлена на формирование навыков по использованию симулятора
@@ -311,24 +288,10 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="card-group">
         <div class="card">
-            <img class="card-img-top" src="..." alt="Робо-OpenCV">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Робо-OpenCV"> -->
+            <div class="card-body bio">
                 <h5 class="card-title">Робо-OpenCV</h5>
                 <p class="card-text">
                     Программа направлена на формирование навыков по написанию основных классов
@@ -346,8 +309,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Квадрокоптеры и БПЛА">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Квадрокоптеры и БПЛА"> -->
+            <div class="card-body pantone123">
                 <h5 class="card-title">Квадрокоптеры и БПЛА</h5>
                 <p class="card-text">
                     Программа направлена на формирование навыков обращения с БЛА,
@@ -364,8 +327,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Интеллектуальные системы и технологии">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Интеллектуальные системы и технологии"> -->
+            <div class="card-body robot">
                 <h5 class="card-title">Интеллектуальные системы и технологии</h5>
                 <p class="card-text">
                     Программа формирует компетенции, которые позволят обучающимся
@@ -385,24 +348,10 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="card-group">
         <div class="card">
-            <img class="card-img-top" src="..." alt="Робот на Mecanum Wheel">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Робот на Mecanum Wheel"> -->
+            <div class="card-body VR">
                 <h5 class="card-title">Робот на Mecanum Wheel</h5>
                 <p class="card-text">
                     Программа направлена на освоение компетенций в области
@@ -419,8 +368,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Основы человеко-машинных интерфейсов">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Основы человеко-машинных интерфейсов"> -->
+            <div class="card-body design">
                 <h5 class="card-title">Основы человеко-машинных интерфейсов</h5>
                 <p class="card-text">
                     Программа направлена на освоение hard- и soft- компетенций обучающимися в
@@ -435,8 +384,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Биотехнологии">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Биотехнологии"> -->
+            <div class="card-body rocket">
                 <h5 class="card-title">Биотехнологии</h5>
                 <p class="card-text">
                     Программа направлена на формирование инженерно-биологического мышления у
@@ -452,54 +401,6 @@
             </div>
         </div>
     </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <br>
     <br>
     <br>
@@ -507,8 +408,8 @@
     <br>
     <div class="card-group">
         <div class="card">
-            <img class="card-img-top" src="..." alt="VR">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="VR"> -->
+            <div class="card-body VR">
                 <h5 class="card-title">VR</h5>
                 <p class="card-text">
                     Программа подразумевает комплексный подход к освоению VR технологии, где
@@ -524,8 +425,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Комплексный инжиниринг в области космических технологий">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Комплексный инжиниринг в области космических технологий"> -->
+            <div class="card-body rocket">
                 <h5 class="card-title">Комплексный инжиниринг в области космических технологий</h5>
                 <p class="card-text">
                     Программа направлена на формирование компетенций, позволяющих школьникам
@@ -542,8 +443,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Создание рельефа местности">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Создание рельефа местности"> -->
+            <div class="card-body cosmos">
                 <h5 class="card-title">Создание рельефа местности</h5>
                 <p class="card-text">
                     Программа направлена на подготовку творческой, технически грамотной,
@@ -563,24 +464,10 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="card-group">
         <div class="card">
-            <img class="card-img-top" src="..." alt="Робот Arduino-Raspberry-Mecanum">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Робот Arduino-Raspberry-Mecanum"> -->
+            <div class="card-body cosmoseng">
                 <h5 class="card-title">Робот Arduino-Raspberry-Mecanum</h5>
                 <p class="card-text">
                     Программа направлена на формирование навыков по использованию симулятора
@@ -597,8 +484,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Квадрокоптеры и БПЛА">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Квадрокоптеры и БПЛА"> -->
+            <div class="card-body pantone123">
                 <h5 class="card-title">Квадрокоптеры и БПЛА</h5>
                 <p class="card-text">
                     Программа направлена на формирование навыков обращения с БЛА,
@@ -615,8 +502,8 @@
             </div>
         </div>
         <div class="card">
-            <img class="card-img-top" src="..." alt="Цифровая схемотехника в мире IT">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Цифровая схемотехника в мире IT"> -->
+            <div class="card-body design">
                 <h5 class="card-title">Цифровая схемотехника в мире IT</h5>
                 <p class="card-text">
                     Программа направлена на освоение обучающимися основных необходимых
@@ -635,24 +522,10 @@
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <div class="card-group">
         <div class="card">
-            <img class="card-img-top" src="..." alt="Промышленный дизайн">
-            <div class="card-body">
+            <!-- <img class="card-img-top" src="..." alt="Промышленный дизайн"> -->
+            <div class="card-body robot">
                 <h5 class="card-title">Промышленный дизайн</h5>
                 <p class="card-text">
                     Программа направлена на освоение подростками основ
