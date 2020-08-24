@@ -5,8 +5,8 @@ use yii\bootstrap4\NavBar;
 <? $this->beginPage();?><!-- Тригер для бутстрапа -->
 
         <head>
-            <link rel="stylesheet" href="/web/css/main.css">
-            <link rel="stylesheet" href="/web/css/all.css">
+            <link rel="stylesheet" href="/css/main.css">
+            <link rel="stylesheet" href="/css/all.css">
             <style>
                 .my-navbar {
                     background-color: #FFC90D;
@@ -34,12 +34,14 @@ use yii\bootstrap4\NavBar;
 
            if (Yii::$app->user->isGuest)
            $menu =[
-             ['label'=>'Регистрация','url'=>['/user/join']],
+               ['label'=>'Преподаватели','url'=>['/informations/teachers']],
                ['label'=>'Войти','url'=>['/user/login']],
+               ['label'=>'Регистрация','url'=>['/user/join']],
            ];
            else
                $menu =[
                    ['label'=>Yii::$app->user->getIdentity()->name],
+                   ['label'=>'Преподаватели','url'=>['/informations/teachers']],
                    ['label'=>'Анкеты','url'=>['/anketa/index']],
                    ['label'=>'Выйти','url'=>['/user/logout']],
                ];

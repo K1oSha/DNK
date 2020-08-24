@@ -41,7 +41,7 @@
     <br>
     <div class="card w-100">
         <div style="background-color:#FFC90D " class="card-body">
-            <h1 style="color: #000;" class="card-title">ДНК - это:</h1>
+            <h1 style="color: #ffffff;" class="card-title">ДНК - это:</h1>
             <H3 class="card-text">
                 ● Проектная деятельность<br>
                 ● Реальные кейсы<br>
@@ -60,7 +60,9 @@
     <h1 style="text-align: center">Описание образовательных программ</h1>
     <br>
     <h3 style="text-align: center">Образовательное направление “Детский университет” (5 - 9 классы)</h3>
+    <div class="row">
 <div class="card-group">
+    <div class="col-lg-4 col-sm-12 col-md-12">
     <div class="card">
         <!-- <img class="card-img-top" src="..." alt="VR"> -->
         <div class="card-body VR">
@@ -78,6 +80,8 @@
                 </small></p>
         </div>
     </div>
+    </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
     <div class="card">
         <!-- <img class="card-img-top" src="..." alt="Космическое бюро"> -->
         <div class="card-body cosmos">
@@ -95,6 +99,8 @@
                 </small></p>
         </div>
     </div>
+        </div>
+            <div class="col-lg-4 col-sm-12 col-md-12">
     <div class="card">
         <!-- <img class="card-img-top" src="..." alt="Создание моделей ракет"> -->
         <div class="card-body rocket">
@@ -111,11 +117,15 @@
                 </small></p>
         </div>
     </div>
+            </div>
 </div>
+    </div>
     <br>
     <br>
     <br>
+    <div class="row">
     <div class="card-group">
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Введение в космологию и основы космического инжиниринга"> -->
             <div class="card-body cosmoseng">
@@ -132,6 +142,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Космическое бюро"> -->
             <div class="card-body robot">
@@ -150,6 +162,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+         <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Создание моделей ракет"> -->
             <div class="card-body intellect">
@@ -168,11 +182,15 @@
                     </small></p>
             </div>
         </div>
+         </div>
+    </div>
     </div>
     <br>
     <br>
     <br>
+    <div class="row">
     <div class="card-group">
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Промышленный дизайн"> -->
             <div class="card-body design">
@@ -190,6 +208,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Основы человеко-машинных интерфейсов"> -->
             <div class="card-body interface">
@@ -206,6 +226,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <!-- <img class="card-img-top" src="..." alt="Биотехнологии"> -->
             <div class="card-body bio">
@@ -223,8 +245,9 @@
                     </small></p>
             </div>
         </div>
+        </div>
     </div>
-
+    </div>
 
 
 
@@ -252,7 +275,9 @@
     <br>
     <h3 style="text-align: center">Образовательное направление “Малая академия” (10 - 11 классы)</h3>
     <br>
+    <div class="row">
     <div class="card-group">
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Космическое бюро">
             <div class="card-body">
@@ -270,6 +295,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Устройства на PyBoard">
             <div class="card-body">
@@ -289,6 +316,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Робот Arduino-Raspberry-Mecanum">
             <div class="card-body">
@@ -307,6 +336,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+    </div>
     </div>
     <br>
     <br>
@@ -325,7 +356,9 @@
     <br>
     <br>
     <br>
+    <div class="row">
     <div class="card-group">
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Робо-OpenCV">
             <div class="card-body">
@@ -345,6 +378,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Квадрокоптеры и БПЛА">
             <div class="card-body">
@@ -363,6 +398,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Интеллектуальные системы и технологии">
             <div class="card-body">
@@ -381,6 +418,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+    </div>
     </div>
     <br>
     <br>
@@ -399,7 +438,9 @@
     <br>
     <br>
     <br>
+    <div class="row">
     <div class="card-group">
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Робот на Mecanum Wheel">
             <div class="card-body">
@@ -418,6 +459,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Основы человеко-машинных интерфейсов">
             <div class="card-body">
@@ -434,6 +477,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Биотехнологии">
             <div class="card-body">
@@ -451,6 +496,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+    </div>
     </div>
 
 
@@ -505,7 +552,9 @@
     <br>
     <h3 style="text-align: center">Образовательное направление “Урок технологии” (5 - 11 классы)</h3>
     <br>
+    <div class="row">
     <div class="card-group">
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="VR">
             <div class="card-body">
@@ -523,6 +572,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Комплексный инжиниринг в области космических технологий">
             <div class="card-body">
@@ -541,6 +592,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Создание рельефа местности">
             <div class="card-body">
@@ -559,6 +612,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+    </div>
     </div>
     <br>
     <br>
@@ -577,7 +632,9 @@
     <br>
     <br>
     <br>
+    <div class="row">
     <div class="card-group">
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Робот Arduino-Raspberry-Mecanum">
             <div class="card-body">
@@ -596,6 +653,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Квадрокоптеры и БПЛА">
             <div class="card-body">
@@ -614,6 +673,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Цифровая схемотехника в мире IT">
             <div class="card-body">
@@ -631,6 +692,8 @@
                     </small></p>
             </div>
         </div>
+        </div>
+    </div>
     </div>
     <br>
     <br>
@@ -649,7 +712,9 @@
     <br>
     <br>
     <br>
+    <div class="row">
     <div class="card-group">
+        <div class="col-lg-4 col-sm-12 col-md-12">
         <div class="card">
             <img class="card-img-top" src="..." alt="Промышленный дизайн">
             <div class="card-body">
@@ -669,4 +734,6 @@
         </div>
         </div>
     </div>
+    </div>
+</div>
 </div>

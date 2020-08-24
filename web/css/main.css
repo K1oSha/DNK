@@ -71,7 +71,7 @@ a{
 
 @font-face {
     font-family: 'Gothic';
-    src: url('/web/css/webfonts/font.ttf') format('truetype');
+    src: url('/css/webfonts/font.ttf') format('truetype');
     font-weight: normal;
 }
 body {
@@ -95,7 +95,7 @@ body {
 }
 .card
 {
-    color: white !important;
+    color: #040404 !important;
 }
 .nav-link
 {
