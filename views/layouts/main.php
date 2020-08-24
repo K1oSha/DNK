@@ -28,7 +28,7 @@ use yii\bootstrap4\NavBar;
                'brandOptions' => ['class' => 'd-flex align-items-start'],
                     'options'=>
                     [
-                            'class' => '  my-navbar my-navbar  navbar-expand-lg',
+                            'class' => 'my-navbar  navbar-expand-lg navbar-dark',
                     ],
            ]);
 
@@ -46,7 +46,7 @@ use yii\bootstrap4\NavBar;
                    ['label'=>'Выйти','url'=>['/user/logout']],
                ];
            echo Nav::widget([
-                   'options'=>['class'=>'ml-auto black'],
+                   'options'=>['class'=>'ml-auto'],
                'items'=>$menu
            ]);
             NavBar::end();
