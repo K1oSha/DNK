@@ -169,18 +169,7 @@
     <div class="col-lg-4 col-sm-12 col-md-12">
     <div class="card">
         <!-- <img class="card-img-top" src="..." alt="Мамбетов Руслан Исмаилович"> -->
-        <div class="card-body pantone">
-            <h5 class="card-title">Мамбетов Руслан Исмаилович</h5>
-            <p class="card-text">
-                Инженер-разработчик в области робототехники и
-                интернета вещей, специалист Центра проектной деятельности ДВФУ.
-            </p>
-        </div>
-    </div>
-    </div>
-        <div class="col-lg-4 col-sm-12 col-md-12">
-    <div class="card">
-        <!-- <img class="card-img-top" src="..." alt="Маськин Егор Викторович"> -->
+
         <div class="card-body bio">
             <h5 class="card-title">Маськин Егор Викторович</h5>
             <p class="card-text">
@@ -189,16 +178,30 @@
             </p>
         </div>
     </div>
+    </div>
+        <div class="col-lg-4 col-sm-12 col-md-12">
+    <div class="card">
+        <!-- <img class="card-img-top" src="..." alt="Маськин Егор Викторович"> -->
+        <div class="card-body pantone">
+            <h5 class="card-title">Мамбетов Руслан Исмаилович</h5>
+            <p class="card-text">
+                Инженер-разработчик в области робототехники и
+                интернета вещей, специалист Центра проектной деятельности ДВФУ.
+            </p>
+        </div>
+    </div>
         </div>
     <div class="col-lg-4 col-sm-12 col-md-12">
     <div class="card">
         <!-- <img class="card-img-top" src="..." alt="Стрекалёв Вячеслав Олегович"> -->
-        <div class="card-body intellect">
-            <h5 class="card-title">Стрекалёв Вячеслав Олегович</h5>
+        <div class="card-body VR ">
+            <h5 class="card-title">Ян Татьяна Вячеславовна</h5>
             <p class="card-text">
-                Инженер-разработчик в области информационных
-                технологий и вычислительной техники, сотрудник ДВО РАН.
+                Разработчик проектов в области объекто-ориентированного
+                программирования и виртуальной реальности, специалист Центра НТИ по
+                нейротехнологиям, технологиям VR и AR.
             </p>
+
         </div>
     </div>
     </div>
@@ -222,12 +225,12 @@
     <div class="col-lg-4 col-sm-12 col-md-12">
     <div class="card">
         <!-- <img class="card-img-top" src="/images/Andrianov.jpg." alt="Ян Татьяна Вячеславовна"> -->
-        <div class="card-body VR">
-            <h5 class="card-title">Ян Татьяна Вячеславовна</h5>
+        <div class="card-body intellect ">
+
+            <h5 class="card-title">Стрекалёв Вячеслав Олегович</h5>
             <p class="card-text">
-                Разработчик проектов в области объекто-ориентированного
-                программирования и виртуальной реальности, специалист Центра НТИ по
-                нейротехнологиям, технологиям VR и AR.
+                Инженер-разработчик в области информационных
+                технологий и вычислительной техники, сотрудник ДВО РАН.
             </p>
         </div>
     </div>

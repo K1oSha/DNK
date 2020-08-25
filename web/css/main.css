@@ -95,8 +95,8 @@ body {
 }
 .card
 {
-    height: 99%;
-    margin-bottom: 50px;
+    /*height: 50%;*/
+    /*margin-bottom: 50px;*/
     color: white !important;
 }
 .card-deck
