@@ -95,14 +95,14 @@ body {
 }
 .card
 {
-    /*height: 50%;*/
-    /*margin-bottom: 50px;*/
+    /*height: 99%;*/
+    /*margin-bottom: 20px;*/
     color: white !important;
 }
-.card-deck
-{
-    margin-bottom: 50px;
-}
+/*.card-deck*/
+/*{*/
+/*    margin-bottom: 50px;*/
+/*}*/
 .nav-link
 {
     color: black !important;

@@ -61,9 +61,9 @@
     <div class="col-lg-4 col-sm-12 col-md-12">
     <div class="card">
         <!-- <img class="card-img-top" src="..." alt="VR"> -->
-        <div class="card-body VR">
+        <div class="card-body VR  ">
             <h5 class="card-title">VR</h5>
-            <p class="card-text">
+            <p class="card-text ">
                 Программа подразумевает комплексный подход к освоению VR технологии, где
                 обучающиеся смогут развить свои навыки программирования, 3D дизайна и получат опыт
                 командной работы в рамках проектной деятельности.
@@ -559,27 +559,29 @@
     </div>
     </div>
     <div class="row">
-    <div class="card-group">
-        <div class="col-lg-4 col-sm-12 col-md-12">
-        <div class="card ">
-            <!-- <img class="card-img-top" src="..." alt="Промышленный дизайн"> -->
-            <div class="card-body bio">
-                <h5 class="card-title">Промышленный дизайн</h5>
-                <p class="card-text">
-                    Программа направлена на освоение подростками основ
-                    3D моделирования с использованием САПР Solidworks и инженерной графики, развитие
-                    творческого и проектного мышления.
-                </p>
-                <p class="card-text"><small class=" ">
-                        Преподаватель: Коломейцев Александр Юрьевич<br>
-                        Возраст учащихся: 14-17 лет (8-9 класс)<br>
-                        Режим занятий: 1,5 часа два раза в неделю<br>
-                        Срок обучения: 1 полугодие
-                    </small></p>
+        <div class="card-group">
+            <div class="col-lg-4 col-sm-12 col-md-12">
+                <div class="card ">
+                    <!-- <img class="card-img-top" src="..." alt="Промышленный дизайн"> -->
+                    <div class="card-body bio">
+                        <h5 class="card-title">Промышленный дизайн</h5>
+                        <p class="card-text">
+                            Программа направлена на освоение подростками основ
+                            3D моделирования с использованием САПР Solidworks и инженерной графики, развитие
+                            творческого и проектного мышления.
+                        </p>
+                        <p class="card-text"><small class=" ">
+                                Преподаватель: Коломейцев Александр Юрьевич<br>
+                                Возраст учащихся: 14-17 лет (8-9 класс)<br>
+                                Режим занятий: 1,5 часа два раза в неделю<br>
+                                Срок обучения: 1 полугодие
+                            </small></p>
+                    </div>
+                </div>
+            </div>
             </div>
         </div>
-        </div>
     </div>
-    </div>
+
 </div>
 </div>
