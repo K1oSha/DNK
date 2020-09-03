@@ -7,10 +7,32 @@ use app\models\UserLoginForm;
 use Yii;
 use app\models\UserIdentity;
 use app\models\UserRecord;
+use yii\filters\AccessControl;
 use yii\web\Controller;
 
 class UserController extends Controller{
 
+    public function behaviors()
+    {
+        return [
+
+            'access' => [
+                'class' => AccessControl::className(),
+                'rules' => [
+                    [
+                        'actions' => ['login','loginpost'],
+                        'allow' => true,
+                        'roles' => ['?'],
+                    ],
+                    [
+                        'actions' => ['join','joinpost','login','logout','loginpost'],
+                        'allow' => true,
+                        'roles' => ['@','?'],
+                    ],
+                ],
+            ],
+        ];
+    }
 
     public function actionJoin()
     {

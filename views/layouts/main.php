@@ -43,6 +43,7 @@ use yii\bootstrap4\NavBar;
                    ['label'=>Yii::$app->user->getIdentity()->name],
                    ['label'=>'Преподаватели','url'=>['/informations/teachers']],
                    ['label'=>'Анкеты','url'=>['/anketa/index']],
+                   ['label'=>'Регистрация','url'=>['/user/join']],
                    ['label'=>'Выйти','url'=>['/user/logout']],
                ];
            echo Nav::widget([
